@@ -1,0 +1,42 @@
+/* Style untuk navbar */
+.navbar {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: space-between; /* Menempatkan elemen secara merata di sepanjang kontainer */
+    align-items: center; /* Mengatur elemen secara vertikal di tengah kontainer */
+    background-color: #ededef; /* Warna abu-abu */
+    padding: 10px 20px; /* Padding untuk memisahkan konten dari tepi navbar */
+  }
+  
+  /* Style untuk link di navbar */
+  .navbar a {
+    color: #000000; /* Warna tulisan hitam */
+    text-decoration: none;
+    margin: 0 5px; /* Jarak antara link */
+  }
+  
+  /* Style untuk link hover di navbar */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style untuk logo */
+  .navbar img {
+    height: 50px; /* Sesuaikan tinggi logo */
+    margin-right: 20px; /* Jarak antara logo dan link menu */
+  }
+  
+  /* Style untuk tombol "Sign In" */
+  .navbar .button {
+    background-color: #FF0000; /* Warna merah */
+    color: #ffffff; /* Warna tulisan putih */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style untuk keranjang */
+  .navbar .cart {
+    margin-right: 10px; /* Jarak antara keranjang dan tombol "Sign In" */
+  }
